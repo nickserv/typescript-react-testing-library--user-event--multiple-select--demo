@@ -1,19 +1,26 @@
 {
   "scripts": {
-    "demo": "webpack-dev-server --open"
+    "demo": "webpack-dev-server --open",
+    "test": "jest"
   },
   "dependencies": {
     "react": "16.8.4",
     "react-dom": "16.8.4"
   },
   "devDependencies": {
+    "@types/jest": "24.0.5",
+    "@types/karma": "3.0.1",
     "@types/node": "11.11.3",
     "@types/react": "16.8.8",
     "@types/react-dom": "16.8.2",
     "css-loader": "2.1.1",
     "html-webpack-plugin": "3.2.0",
+    "jest": "24.5.0",
+    "karma": "4.0.0",
+    "react-testing-library": "6.0.4",
     "source-map-loader": "0.2.4",
     "style-loader": "0.23.1",
+    "ts-jest": "24.0.0",
     "ts-loader": "5.3.3",
     "typescript": "3.3.3333",
     "webpack": "4.29.6",
