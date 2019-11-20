@@ -1,11 +1,15 @@
-TypeScript React "react-testing-library" Demo
-=============================================
+TypeScript React "react-testing-library" "user-event" Multiple Select Demo
+===========================================================================
 
-如何使用jest和`react-testing-library`来测试react component的行为。
+Try "user-event" in tests to simulate user selected options in a multiple select.
 
-`react-testing-library`已经迁移到`@testing-library/react`
+But not all work as expected:
+1. check `option.selected` is work as expected
+2. `onChange` callback doesn't have expected values
 
 ```
 npm install
 npm run test
 ```
+
+It will fail and have error messages in console.

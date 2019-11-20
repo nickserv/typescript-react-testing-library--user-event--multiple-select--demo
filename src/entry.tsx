@@ -1,8 +1,8 @@
-import Hello from './hello'
+import MultiSelect from './hello'
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
 ReactDOM.render(
-  <Hello name='react' onChange={name => console.log(name)}/>,
+  <MultiSelect onSelect={values => console.log("Selected values:", values)}/>,
   document.body
 )
