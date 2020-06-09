@@ -16,6 +16,7 @@ export default function MultiSelect({onSelectedValuesChange}: Props) {
 
   return <select multiple data-testid="select-multiple"
                  onChange={onSelectOptions} style={{width: '100px'}}>
+    <option data-testid="val0" value="" disabled>0</option>
     <option data-testid="val1" value="1">1</option>
     <option data-testid="val2" value="2">2</option>
     <option data-testid="val3" value="3">3</option>
